@@ -57,8 +57,8 @@ public class TestCase {
         if (skypeButton.isDisplayed()) skypeButton.getText();
         String heading = skypeButton.getText();
         assertEquals("skype", heading);
-        System.out.println(heading);
         logger.info("Тест-кейс №3 пройден");
+        System.out.println(heading);
     }
 
     @AfterAll
